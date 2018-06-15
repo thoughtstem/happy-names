@@ -1,0 +1,14 @@
+
+(module rocket racket
+  (provide
+
+          (all-from-out "nouns.rkt")
+          (all-from-out "adjectives.rkt")
+
+           #%module-begin)
+
+(require "nouns.rkt")
+(require "adjectives.rkt")
+
+
+  )
